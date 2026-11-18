@@ -1,21 +1,14 @@
-# Korolina Beauty — editorial prototype
+# Corolina Reaper — editorial cosmetology site
 
-Responsive static prototype for the Korolina Beauty website.
+Static HTML, CSS and JavaScript website. No npm build step is required.
 
-## Preview
-Open `index.html` in a browser. Images and Google Fonts load from the internet.
+## Preview locally
+Open `index.html` in a browser. Google Fonts load from the internet.
 
-## Included
-- Editorial multi-window hero inspired by the REOME reference
-- Responsive mobile layout and navigation
-- Service catalogue (10 procedures)
-- Portfolio filters: All / Face / Body
-- Telegram booking links
-- Separate Beauty OS section
-- Placeholder photography, clearly disclosed as illustrative
+## Files
+- `index.html` — page content and structure
+- `styles.css` — design system and responsive layout
+- `script.js` — mobile navigation and portfolio filters
+- `assets/carolina-reaper.svg` — small decorative pepper used only beside the header wordmark
 
-## Before publishing
-- Replace illustrative images with photos owned by or licensed to Korolina.
-- Confirm all service names, contact details, claims and links.
-- Integrate the approved design into the existing React + TypeScript + Vite app without changing Beauty OS architecture.
-- Configure hosting and test on real devices.
+The pepper is intentionally limited to the header logo. The existing skincare image in the hero remains; there is no sliced-pepper image.

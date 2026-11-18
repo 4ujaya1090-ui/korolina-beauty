@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Красный перец">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bd4140"/>
+      <stop offset=".42" stop-color="#8b202a"/>
+      <stop offset=".78" stop-color="#641b25"/>
+      <stop offset="1" stop-color="#3d171b"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#1f0b0d" stop-opacity=".24"/>
+    </linearGradient>
+  </defs>
+  <path d="M49 18 C52 11 58 7 66 5 C63 12 59 17 52 22" fill="none" stroke="#34452e" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M48 20 C39 15 28 20 23 29 C18 38 17 48 24 57 C29 64 36 66 41 60 C45 55 45 48 50 42 C56 35 59 26 53 21 C52 20 50 20 48 20Z" fill="url(#skin)"/>
+  <path d="M46 21 C40 23 35 31 34 40 C33 48 36 54 33 59 C28 55 25 49 27 40 C29 30 36 22 46 21Z" fill="url(#shine)"/>
+  <path d="M50 22 C57 24 62 31 60 39 C58 46 52 51 50 58 C48 64 44 69 37 71 C40 64 39 59 43 52 C47 44 54 36 50 22Z" fill="url(#skin)"/>
+  <path d="M48 23 C52 29 49 37 45 43 C41 49 41 57 37 63" fill="none" stroke="#d96b61" stroke-opacity=".45" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M29 29 C31 25 35 23 39 22" fill="none" stroke="#ffd0b6" stroke-opacity=".58" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
