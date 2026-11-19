@@ -44,7 +44,7 @@ img{max-width:100%}
 .photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s ease,filter .7s ease}
 .photo:hover img{transform:scale(1.025)}
 .hero-portrait{grid-column:2;grid-row:1 / span 2;min-height:470px;background:#282522}
-.hero-portrait img{object-position:50% 35%;filter:grayscale(1) contrast(1.04)}
+.hero-portrait img{object-fit:cover;object-position:center;filter:grayscale(1) contrast(1.04)}
 .photo-caption{position:absolute;left:16px;bottom:16px;color:#fff;font-size:9px;line-height:1.9;letter-spacing:1.8px;text-shadow:0 1px 8px #0006}
 .image-index{position:absolute;bottom:12px;right:13px;font-size:9px;letter-spacing:1px;color:#fff;text-shadow:0 1px 8px #0007}
 .eye-detail{grid-column:3;grid-row:1}
@@ -177,6 +177,7 @@ img{max-width:100%}
   .hero-description{max-width:340px;font-size:11px;letter-spacing:.16em;margin:22px 0}
   .hero-footnote{margin-top:22px}
   .hero-portrait{grid-column:1;grid-row:2;min-height:360px;height:100%}
+  .hero-portrait img{object-position:25% center}
   .eye-detail{grid-column:2;grid-row:2;min-height:175px}
   .manifesto{grid-column:2;grid-row:3;min-height:175px;padding:17px}
   .manifesto h2{font-size:clamp(24px,6vw,34px)}
